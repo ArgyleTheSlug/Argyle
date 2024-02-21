@@ -7,9 +7,6 @@
                 background-repeat: repeat;
             }
                 
-
-
-            
             header{
                 background: #800000;
                 color:white;
@@ -17,21 +14,17 @@
                 overflow: scroll;
                 white-space: nowrap;
             }
-
-
+            
             section{
   
                 padding: 20px;
                 display: flex;
                 flex-direction: row;
-
-            
-
             }
             div.diva{
                 background-color: #FFFBE0;
                 margin: auto;
-                padding: 20px;
+                padding: 15px 20px 15px 20px;
                 width: 800px;
                 border-radius: 4px;
                 font-size: 15px;
@@ -50,9 +43,9 @@
                 margin: auto;
                 width: 1000px;
                 border-radius: 4px;
-                text-align: left;
+                text-align: center;
             }
-            .button-1 {
+            .homer {
                 background-color: #800000;
                 border-radius: 8px;
                 border-style: none;
@@ -60,7 +53,7 @@
                 color: #FFFFFF;
                 cursor: pointer;
                 display: inline-block;
-                font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-family: "Haas Grot Text R Web", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
                 font-size: 25px;
                 font-weight: 500;
                 height: 100px;
@@ -80,10 +73,17 @@
                 touch-action: manipulation;
               }
               
-              .button-1:hover,
-              .button-1:focus {
+              .homer:hover,
+              .homer:focus {
                 background-color: #973838;
               }
+            
+            .mainer {
+                font-family: "Haas Grot Text R Web", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+                position: relative;
+                margin: 5px 5px 0px 5px;
+            }
+
           
             ul{
                 margin: 0;
@@ -102,3 +102,5 @@
                 color: white;
                 padding: 5px;
             }
+            img { border-style: none; }
+            
